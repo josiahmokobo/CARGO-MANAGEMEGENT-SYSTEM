@@ -1,0 +1,259 @@
+*
+{
+font-family:'San Serif';
+font-weight: bold;
+background: #ccffcc;
+background-size:100% 100%;
+background-origin:content-box;
+}
+#logo
+{
+background:url(images/menu.png) repeat;
+height: 150px;
+box-shadow: 10px 10px 5px #f00fcc;
+}
+#jobs
+{
+width: 100px;  
+text-align: center;
+margin-left: 40px;
+float: left;
+}
+}
+#jobs
+{
+
+text-align: center;
+margin-left: 10px;
+float: left;
+
+}
+--===============top navigation menu========================-------------
+#tabs
+{
+height: 100 px;
+width: 960 px;
+text-align: center;
+text-transform:uppercase;
+font-weight: bold;
+}
+-----===================side menu section===========================------------
+------------=================navigation==========================--------------
+#section
+{
+
+height: auto;
+ width: auto;	
+float: left;
+}
+#section nav {
+    display: block;
+    width: auto;
+    text-align: center;
+    height: auto;
+    float: left;
+	 margin-right:0px;
+   margin-left: 0px;
+    margin-top: 0px;
+   margin-bottom: 0px;
+}
+#section nav ul{
+    margin-right:0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   padding: .10em;
+    float: left;
+    text-transform:uppercase;
+    list-style: none;
+    background: red;
+    background: magenta;
+    border-radius: .5em;
+    width: auto;	
+-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset; 
+-moz-box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset;
+-o-box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset; 	
+ -ms-box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset; 
+}
+nav a{
+    float:left;
+    padding: .8em 1.5em;
+    text-decoration: none;
+    color:rgb(255,255,0);
+box-shadow: 10px 10px 5px #899989;
+    font: bold 1.1em/1 'trebuchet MS', Arial, Helvetica;
+    letter-spacing: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red #ccc #999 #eee;
+    background: red;
+    background: linear-gradient(blue, #c1c1c1);        
+    width:   160px;
+ }
+ nav a:hover, nav a:focus {
+    text-shadow: 0 1px 0 rgba(255,255,0,.2);
+    background: red;
+    text-align: right;
+    font-weight: bold;
+    font-family:'Comic Sans';
+    background: linear-gradient(#888888, #f8ac00);
+}
+input[type=TEXT],input[type=PASSWORD],input[type=EMAIL],input[type=DATE],input[type=FILE] ,input[type=TEL]
+{
+                border:1px solid #ccc;
+		padding:5px;
+		margin-bottom:5px;
+		border-radius: .5em;    
+	        outline:none;	   
+                color:#000066;
+                height: 40px;
+                background-color:#fff;
+                         -ms-box-sizing:border-box;
+                        -o-box-sizing:border-box;
+                -webkit-box-sizing:border-box;
+                -moz-box-sizing:border-box; 
+                box-sizing:border-box;
+ }
+--==============content section --=====================
+#myForm
+{
+text-align: center;
+margin-left: 50px;
+}
+-=========================HEADER==========================--
+//used in inline css
+#admin
+{
+width: 300px;
+float: left;
+}
+#content
+{
+height: auto;
+width: 660px;
+color: red;
+float: left;
+margin-top : 0 px;
+margin-left: 0 px;
+margin-right: 0 px;
+}
+#field{
+ -ms-box-shadow : inset 0 0 10px #000000;
+ -o-box-shadow :  inset 0 0 10px #000000 ;
+-moz-box-shadow : inset 0 0 10px #000000 ;
+-ms-box-shadow: inset 0 0 10px #000000 ;
+ -webkit-box-shadow : inset 0 0 10px #000000 ;
+  box-shadow : inset 0 0 10px #000000 ;
+  width:660px;
+  background-color:MAGENTA;
+  margin-left: 0 px;
+  
+  }
+.more, .subscribe, input[type='submit'] , input[type='submit1'], input[type='reset']{
+	  background-color: #6cbb6b;
+	  background-image: linear-gradient(green, blue);
+    border-radius: auto;   
+    border-width: auto;
+    border-style: solid;
+    border-color: #7eba7c #578e57 #447d43;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 
+                0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 0;
+    text-transform:uppercase;
+    width: auto;
+    cursor: pointer;
+	box-shadow: 10px 10px 5px #899989;
+    font: bold 14px Arial, Helvetica;
+    color: white;   
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+#submit:hover  #submit1:hover{       
+    background-color: #95d788;
+    background-image: linear-gradient(#6cbb6b, #95d788);
+	
+}   
+
+#submit:active #submit1:active  {       
+    background: #95d788;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;        
+}
+
+#submit::-moz-focus-inner #submit1::-moz-focus-inner {
+       border: 0;  /* Small centering fix for Firefox */
+}
+#jobs
+{
+width: 150px;
+text-align: left;
+margin-left: auto;
+float: left;
+color: red;
+
+}
+#job
+{
+width: auto;
+box-shadow: 10px 10px 5px #899989;
+margin-left: 30px;
+float: left;
+color: red;
+}
+--===============footer section --======================
+#footer
+{
+float: left;
+width: 960 px;
+height: inherent:
+}
+#image:hover , #image:focus
+{
+background: red;
+}
+a, #link
+{
+text-decoration: none;
+color: red;
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+font: bold 1.1em/1 'trebuchet MS', Arial, Helvetica;
+letter-spacing: 1px;
+border-width: 1px;
+border-color: red #ccc #999 #eee;
+background: green;
+background: linear-gradient(blue, #c1c1c1);  
+}
+h1
+{
+text-shadow: 5px 5px 5px #FF0000;
+text-align: center;
+text-transform: uppercase;
+}
+p {word-wrap:break-word;}
+h1{font-family:"Comic Sans MS", cursive, sans-serif; font-size: 20;}
+
+#grad2
+{
+width:50px;
+height:auto;
+float: left;
+}
+
+#field{
+-webkit-box-shadow : inset 0 0 10px #000000 ;
+-moz-box-shadow : inset 0 0 10px #000000 ;
+ -webkit-box-shadow : inset 0 0 10px #000000 ;
+  box-shadow : inset 0 0 10px #000000 ;
+  background-color:magenta;
+  
+}
+#jobz
+{
+width: 400px;
+text-align: left;
+margin-left: auto;
+float: right;
+color: red;
+}

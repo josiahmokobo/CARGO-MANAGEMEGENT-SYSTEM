@@ -1,0 +1,41 @@
+#hoverdiv,#hove
+{
+font-size:16px;
+background: white;  
+font-weight: bold;
+background-image: linear-gradient(#95d788, #6cbb6b);
+border-radius:0px;
+height: 60px;
+border-spacing: 3px;
+box-shadow: 10px 10px 5px #899989; 
+
+
+	.suggestionsBox {
+		position: absolute;
+		left: 0px;
+		margin: 0px 0px 0px 0px;
+		width: 250px;
+		background-color: #212427;
+		-moz-border-radius: 7px;
+		-webkit-border-radius: 7px;
+		border: 2px solid #000;	
+		color: #fff;
+	}
+	
+	.suggestionList {
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	.suggestionList li {
+		
+		margin: 0px 0px 3px 0px;
+		padding: 3px;
+		cursor: pointer;
+		z-index:9999;
+	}
+	
+	.active {
+		background-color: #659CD8;
+	}
+}
